@@ -1,3 +1,5 @@
+本周主要阅读了有关KG解决LLM幻觉的论文，主要集中在graphrag范式[3,4,5]和知识图谱提示[6,7,8],另外还有知识图谱应用到电力调度决策的论文[9,10],这两篇主要是介绍电力调度可以用知识图谱辅助。一些总结和初步想法如下：
+
 # 基于KG的调度决策路径探索
 为了解决将LLM应用于特定领域时出现的幻觉问题，大致可以采取三类措施：微调（FT）、检索增强生成（RAG）和KG增强LLM。
 ## 1.使用特定领域的数据微调LLM
@@ -72,3 +74,4 @@ Agent负责学习如何在知识图谱上导航,使用一个策略网络(ransfor
 [9]Fan S, Liu X, Chen Y, et al. How to construct a power knowledge graph with dispatching data?[J]. Scientific Programming, 2020, 2020(1): 8842463.
 
 [10]Chen J, Lu G, Pan Z, et al. Research review of the knowledge graph and its application in power system dispatching and operation[J]. Frontiers in Energy Research, 2022, 10: 896836.
+
